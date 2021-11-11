@@ -11,10 +11,10 @@ public class Arrays {
         double[] decimales = new double[2];
         int longitudArray = numeroDos.length;
         //System.out.println(longitudArray);
-        System.out.println(numeroDos[9]);
+        //System.out.println(numeroDos[9]);
 
         for (int i = 0; i < numeroDos.length; i++) {
-            System.out.printf(numeroDos,[i];
+            System.out.println(numeroDos[i]);
         }
     }
 }
