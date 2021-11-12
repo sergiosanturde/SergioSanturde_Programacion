@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumno>
+    <nombre>
+        Joan
+    </nombre>
+    <apellido>
+        Garcia
+    </apellido>
+    <nacimiento>
+        <dia>
+            24
+        </dia>
+        <mes>
+            Febrero
+        </mes>
+        <año>
+            2001
+        </año>
+        <localidad>
+            Barcelona
+        </localidad>
+
+    </nacimiento>
+</alumno>

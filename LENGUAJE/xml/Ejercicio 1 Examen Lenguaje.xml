@@ -1,0 +1,20 @@
+<marcadores>
+    <coordenada id= "1">
+        <latitud>40.416875</latitud>
+        <longitud>-3.703308</longitud>
+        <cuidad>Madrid</cuidad>
+        <descripcion>Puerta del Sol</descripcion>
+    </coordenada>
+    <coordenada id= "2">
+        <latitud>40.417438</latitud>
+        <longitud>-3.693363</longitud>
+        <cuidad>Madrid</cuidad>
+        <descripcion>Paseo del Prado</descripcion>
+    </coordenada>
+    <coordenada id= "3">
+        <latitud>40.407015</latitud>
+        <longitud>-3.691163</longitud>
+        <cuidad>Madrid</cuidad>
+        <descripcion>Estación de Atocha</descripcion>
+    </coordenada>
+</marcadores>

@@ -1,0 +1,76 @@
+{
+"nombre" :  "Pedro","apellido" : "gomez","DNI" : "1726409127e","telefono" : 34 831836104
+}
+
+{
+"animal" : "Cocodrilo"},
+
+{"caracteristicas": 
+    [
+        "color" : "verde oscuro",
+        "raza" : "reptil",
+        "tipo" : "carnivoro"
+    ]
+}
+
+{"profesores" : 
+    [
+        {"nombre" : "Eduardo del Olmo",
+        "dni" : "542q0938t",
+        "edad" : 21},
+        {"nombre" : "Isaac Sampedro",
+        "dni" : "12345521i",
+        "edad" : 31}
+    ]
+    {"alumnos" : 
+        [
+            {"nombre" : "Sergio Santurde",
+            "dni" : "4108375q",
+            "edad" : 20},
+            {"nombre" : "Rene Enrique",
+            "dni" : "43676234m",
+            "edad" : 20}
+        ]
+}
+
+
+{"Restauración" :
+    [
+        {"nombre" : "Bar Pasqual",
+        "tipo" : "bar",
+        "servicio" : "tapas",
+        "direccion" : "Avda diagonal 232",
+        "propietario" : "Joan Alcover"},
+
+        {"nombre" : "Meravelles",
+        "tipo" : "restaurante",
+        "servicio" : "menu",
+        "direccion" : "Calle Meridiana 11",
+        "propietario" : "Maria Pasqual"},
+
+        {"nombre" : "Racó",
+        "tipo" : "restaurante",
+        "servicio" : "menu",
+        "direccion" : "Avda Roma 221",
+        "propietario" : "Alba Puig"},
+    ]
+}
+{"widget" :
+    [
+        {"debug" : "on",
+        "ventana": 
+        {
+            "tirulo" : "Sample Konfabulour Widget",
+            "nombre" : "main_windows",
+            "width" : 500,
+            "height" : 500}
+        },
+        
+        {"imagen src" : "Images/sun.jpg",
+        "nombre" : "sun_1",
+        "h0ffset" : 250,
+        "h0ffset" : 100,
+        "h0ffset" : "center",
+        "onMouseUp" : "Sun.opacity = (sun.opacity / 100) * 90"}     
+    ]
+}

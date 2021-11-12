@@ -1,0 +1,20 @@
+<Informes_autopista>
+    <evento id="1">
+        <tipo_señal>Accidente<tipo_señal>
+        <punto_kilometrico>42,200<punto_kilometrico>
+        <nombre_via>A-49</nombre_via>
+        <origen>Sevilla</origen>
+        <destino>Huelva</destino>
+        <corte_via>1 carril</corte_via>
+        <fecha_evento>16:00</fecha_evento>
+        <retencion>Si</retencion>
+        <Km_retencion>8</Km_retencion>
+    <evento id="2">
+        <tipo_señal>Retención<tipo_señal>
+        <punto_kilometrico>550<punto_kilometrico>
+        <nombre_via>A-4</nombre_via>
+        <sentido>Sevilla</sentido>
+        <fecha_evento>10:45</fecha_evento>
+        <retencion>Si</retencion>
+        <Km_retencion>3</Km_retencion>
+</Informes_autopista>

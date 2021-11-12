@@ -1,0 +1,13 @@
+<contenedores>
+    <contenedor id="Grande">
+        <envases tipo="Ancho">
+                <liquido tipo="Alimento">Leche,Agua,Aceite,Vinagre
+            <alto>
+                <liquido tipo="Alimento">Leche,Agua,Aceite,Vinagre
+
+        </envases>
+    </contenedor>
+
+    <contenedor id="Mediano">
+    </contenedor>
+</contenedor>

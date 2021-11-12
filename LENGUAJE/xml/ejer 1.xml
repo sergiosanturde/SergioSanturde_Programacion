@@ -1,0 +1,21 @@
+<zoo>
+    <animales>
+        <animal>jirafa</animal>
+        <animal>leon</animal>
+        <animal>aguila</animal>
+    </animales>
+    <tipos>
+        <carnivoro>
+            <animal>leon</animal>
+            <animal>aguila</animal>
+        </carnivoro>
+        <herbivoro>
+            <animal>jirafa</animal>
+        </herbivoro>
+    </tipos>
+    <color>
+        <jirafa>carne con manchas marrones</jirafa>
+        <leon>marron</leon>
+        <aguila>blanco con marron</aguila>        
+    </color>
+</zoo>

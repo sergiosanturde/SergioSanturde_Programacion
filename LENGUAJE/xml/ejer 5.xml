@@ -1,0 +1,23 @@
+<obras>
+    <cuadro id="1">
+        <tipo>Abstracto</tipo>
+        <nombre>Azul sobre blanco</nombre>
+        <autor>Pere Águila</autor>
+        <año>2014</año>
+        <pintura>Al óleo</pintura>
+    </cuadro>
+    <cuadro id="2">
+        <tipo>Abstracto</tipo>
+        <nombre>Gris Oscuro</nombre>
+        <autor>Pere Águila</autor>
+        <año>2010</año>
+        <pintura>Acuarela</pintura>
+    </cuadro>
+    <cuadro id="3">
+        <tipo>Escultura</tipo>
+        <nombre>Camino Largo</nombre>
+        <autor>Marta Lambert</autor>
+        <año>1981</año>
+        <pintura>Desconocida</pintura>
+    </cuadro>
+</obras>

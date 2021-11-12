@@ -1,0 +1,23 @@
+{"Evento 1" :
+    [
+        {"tipo_señal" : "Accidente",
+        "punto_kilometrico" : 42.200,
+        "nombre_via" : "A-49",
+        "origen" : "Sevilla",
+        "destino" : "Huelva",
+        "corte_via" : "1 carril",
+        "fecha_evento" : 16 00,
+        "retencion" : "Si",
+        "Km_retencion" : 8},
+    ]
+        {"Evento 2" :
+    [
+            {"tipo_señal" : "Retención",
+            "punto_kilometrico" : 550,
+            "nombre_via" : "A-4",
+            "sentido" : "Sevilla",
+            "fecha_evento" : 10 45,
+            "retencion" : "Si",
+            "Km_retencion" : 3},
+    ]
+}

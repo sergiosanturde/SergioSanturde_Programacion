@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<establecimientos>
+    <bar>
+        <nombre>
+            Bar Pasqual    
+        </nombre>
+        <servicio>
+            Tapas
+        </servicio>
+        <localizacion>
+            Avda diagonal 232
+        </localizacion>
+        <propiedad>
+            Joan Alcover
+        </propiedad>
+    </bar>
+    <restaurante id="1">
+        <nombre>
+            Meravelles
+        </nombre>
+        <servicio>
+            Menu
+        </servicio>
+        <localizacion>
+            Calle Meridiana, 11
+        </localizacion>
+        <propiedad>
+            Maria Pasqual
+        </propiedad>
+    </restaurante>
+    <restaurante id="2">
+        <nombre>
+            Racó
+        </nombre>
+        <servicio>
+            Menu
+        </servicio>
+        <localizacion>
+            Avda Roma 221
+        </localizacion>
+        <propiedad>
+            Alba Puig
+        </propiedad>
+    </restaurante>
+</establecimientos>

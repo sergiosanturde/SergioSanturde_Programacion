@@ -1,0 +1,27 @@
+<empresa>
+    <factura>
+        <codigo> </codigo>
+        <fecha_emision> </fecha_emision>
+        <datos_cliente>
+            <dni>234273298y</dni>
+            <nombre>Oscar</nombre>
+            <direccion>Oslo</direccion>
+            <codigo_postal>27655</codigo_postal>
+            <poblacion>Mostoles</poblacion>
+        </datos_cliente>
+        <compra>
+            <producto id="1">
+                <cantidad>x</cantidad>
+                <denominacion>342</denominacion>
+                <precio_unitario>936€</precio_unitario>
+                <iva>21%</iva>
+            <producto id="2">
+                <cantidad>y</cantidad>
+                <denominacion>2151</denominacion>
+                <precio_unitario>612€</precio_unitario>
+                <iva>21%</iva>
+            </producto>
+        </compra>
+    </factura>
+    <descuento_importe_factura>37%</descuento_importe_factura>
+</empresa>

@@ -1,0 +1,58 @@
+<cine>
+    <sala id= "1">
+        <pelicula>
+            <titulo>
+                JURASSIC PARK
+            </titulo>
+            <categoria>
+                Ciencia Ficcion,
+                Aventura
+            </categoria>
+            <idioma>
+                Esp 
+                Eng
+            </idioma>
+            <fecha>
+                9 de Junio de 1993
+            </fecha>
+            <actores>
+                <actor>
+                Sam Neill,
+                Jeff Goldblum,
+                Richard Attenborough,
+                </actor>
+                <actriz>
+                    Laura Dern
+                </actriz>
+            </actores>
+        </pelicula>
+    </sala>
+    <sala id= "2">
+        <pelicula>
+            <titulo>
+                FRIDAY THE 13th
+            </titulo>
+            <categoria>
+                Terror,
+                Suspense
+            </categoria>
+            <idioma>
+                Esp
+                Eng
+            </idioma>
+            <fecha>
+                1980
+            </fecha>
+            <actores>
+                <actor>
+                    Harry Crosby
+                    Kevin Bacon
+                </actor>
+                <actriz>
+                    Betsy Palmer
+                    Adrienne King
+                </actriz>
+            </actores>
+        </pelicula>
+    </sala>
+</cine>
