@@ -1,8 +1,5 @@
 package ejerarrasdimensonales;
 
-
-
-
 import java.util.Arrays;
 import java.util.Scanner;
 
