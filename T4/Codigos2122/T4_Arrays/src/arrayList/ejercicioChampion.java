@@ -14,7 +14,7 @@ public class ejercicioChampion {
             String equipoGeneradoUno = bombo1[aleatorioUno];
             String equipoGeneradoDos = bombo2[aleatorioDos];
 
-            for (int j = 0; j < e; j++) {
+            for (int j = 0; j < i; j++) {
 
             }
         }
