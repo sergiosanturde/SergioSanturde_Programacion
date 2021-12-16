@@ -1,7 +1,8 @@
 #p1{
-    color: white;
-    text-shadow: 2px 2px 5px red;
-}
+
+    font-family: 'Noto Music', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Palette Mosaic', cursive;}
 #d1{
     background-color: gray;
     width: 100px;

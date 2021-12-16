@@ -2,6 +2,7 @@ package arrayList;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.function.Predicate;
 
 public class Colecciones {
     public static void main(String[] args) {
@@ -85,6 +86,15 @@ public class Colecciones {
                 listaCosas.remove(i);
             }
         }
+        listaCosas.removeIf(new Predicate() {
+            @Override
+            public boolean test(Object o) {
+                return o.equals(6);
+            }
+        });
+
+
+
         System.out.println(listaCosas);
     }
 }
