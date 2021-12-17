@@ -28,7 +28,7 @@ public class ejerAgenda {
 
                     System.out.print("A continuacion vamos a introducir sus datos" + "\n");
 
-                    System.out.println("Introduce la nombre");
+                    System.out.println("Introduce el nombre");
                     nombre = teclado.next();
 
                     System.out.println("Introduce un apellido");
@@ -70,7 +70,7 @@ public class ejerAgenda {
 
                     for (int i = 0; i < listaAgenda.size(); i++) {
                         if (listaAgenda.get(i)[3].toString().equalsIgnoreCase(dni)){
-                            System.out.println("Coche borrado");
+                            System.out.println("Datos borrados");
                             listaAgenda.remove(i);
                             break;
                         }
