@@ -1,6 +1,8 @@
 package HashTable;
 
+import javax.management.ObjectName;
 import java.util.ArrayList;
+import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Hashtable;
 
@@ -19,7 +21,7 @@ public class Listas {
         listaElementos.put("3", false);
         listaElementos.put("4", new String[]{"Cosa 1","Cosa 2","Cosa 3"});
 
-        System.out.println(listaElementos.size());
+        /*System.out.println(listaElementos.size());
 
         //Obtener elementos del hashtable
 
@@ -29,6 +31,16 @@ public class Listas {
         //Borrar un elemento
 
         listaElementos.remove("1");
-        System.out.println(listaElementos.get("1"));
+        System.out.println(listaElementos.get("1"));*/
+
+        System.out.println("Listado elemento");
+        Enumeration<Object> listaClaves = listaElementos.keys();
+        while (listaClaves.hasMoreElements()){
+            // hay elemento siguiente
+            Object clave = listaClaves.nextElement();
+            Object elemento = listaElementos.get(clave);
+            System.out.println(elemento);
+        }
     }
 }
+
