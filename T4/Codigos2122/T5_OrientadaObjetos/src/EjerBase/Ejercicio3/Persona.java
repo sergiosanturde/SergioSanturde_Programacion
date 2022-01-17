@@ -1,7 +1,7 @@
-package EjerBase.Ejercicio1;
+package EjerBase.Ejercicio3;
 
 public class Persona {
-    //ATRIBUTOS
+
     private String nombre,apellido,dni;
     private int edad,altura;
     private double peso;
@@ -62,15 +62,14 @@ public class Persona {
         if (IMC<18.5){
             estado = "Peso inferior a normal";
         }else if (IMC > 18.5 && IMC < 24.9){
-            estado = "normal";
+            estado = "Peso inferior a normal";
         }else if (IMC >=25 && IMC <29.9){
-            estado = "Peso superior a normal";
+            estado = "Peso inferior a normal";
         }else {
             estado = "obesidad";
         }
         return  estado;
     }
-
     //GETTER SETTER
 
 
@@ -122,3 +121,4 @@ public class Persona {
         this.peso = peso;
     }
 }
+

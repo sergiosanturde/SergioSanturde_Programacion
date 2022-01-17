@@ -1,0 +1,40 @@
+#d5{    
+    font-size: 0;
+    padding: 0px;
+    margin: 0px;
+    border: 10px;
+    box-sizing: border-box;
+}
+#d1{
+    background-color: yellow;
+    width: 25%;
+    height: 200px;
+    padding: 10px;
+    margin: 0px;
+    display: inline-block;
+}
+#d2{
+    background-color: blue;
+    width: 25%;
+    height: 200px;
+    padding: 10px;
+    margin: 0px;
+    display: inline-block;
+
+}
+#d3{
+    background-color: green;
+    width: 25%;
+    height: 200px;
+    padding: 10px;
+    margin: 0px;
+    display: inline-block;
+}
+#d4{
+    background-color: red;
+    width: 25%;
+    height: 200px;
+    padding: 10px;
+    margin: 0px;
+    display: inline-block;
+}
