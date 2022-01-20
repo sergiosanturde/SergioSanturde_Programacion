@@ -1,0 +1,27 @@
+#morado{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    padding: 50px; 
+    border: 1px solid black;
+    margin: auto;
+}
+#verde{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    padding: 20px; 
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 70px;
+}
+#rojo{
+    background-color: red;
+    width: 8px;
+    height: 8px;
+    padding: 8px; 
+    border: 1px solid black;
+    margin: auto;
+    margin-top: -3px;
+    margin-left: -3px;
+}

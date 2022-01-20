@@ -1,0 +1,12 @@
+li:nth-child(2n){
+    color: red
+}
+li:nth-child(2n+1){
+    color: blue
+}
+li:last-child{
+    background-color: orange
+}
+li:nth-child(7){
+font-size: 18px
+}
