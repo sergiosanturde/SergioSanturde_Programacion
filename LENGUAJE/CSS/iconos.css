@@ -1,0 +1,7 @@
+i{
+    font-size: 50px;
+    border: 1px solid black;
+}
+i:hover{
+    font-size: 100px;
+}
