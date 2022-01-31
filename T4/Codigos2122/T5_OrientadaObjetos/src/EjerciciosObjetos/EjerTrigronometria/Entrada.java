@@ -17,7 +17,7 @@ public class Entrada {
         System.out.println("El diametro del Circulo es: " + circulo1.calculoDiametro());
         System.out.println("El area del Cuadrado es: "+ cuadrado.calcularArea());
         System.out.println("El perimetro del Cuadrado es: " + cuadrado.calcularPerimetro());
-        //mod
+        //modificar
 
         System.out.println("¿Qué quieres seleccionar?");
         System.out.println("1.- Trabajar con triángulos");
