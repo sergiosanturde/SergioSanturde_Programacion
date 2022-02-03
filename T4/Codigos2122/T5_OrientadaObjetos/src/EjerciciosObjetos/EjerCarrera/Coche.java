@@ -7,12 +7,13 @@ public class Coche {
     private String matricula,modelo;
     private double kilometros;
 
-    //constructor
+    //Constructores
+
     public Coche(){
         this.cv = 0;
         this.velocidad = 0;
         this.matricula = "0000AAA";
-        this.modelo = "Sin especificar";
+        this.modelo = "Sin Especificar";
         this.kilometros = 0.0;
     }
     public Coche(String modelo,String matricula,int cv){
@@ -21,37 +22,45 @@ public class Coche {
         this.cv = cv;
     }
 
-    //Método
+    //Metodos
 
-    public void acelerar(int fium){
+    public void acelerar(int arranque){
+        this.velocidad += arranque;
+
+        this.kilometros = velocidad * (cv * (int)(Math.random()*11));
+
         if (velocidad > 180){
-            System.out.println("Baja el carro wacho");
+            this.velocidad = 180;
+            System.out.println("Por favor modere la velocidad");
         }
-        this.velocidad += fium;
-        this.kilometros = velocidad*((cv)+(Math.random()*11));
     }
-    public void frenar(int parar){
-        if (velocidad < 0){
-            System.out.println("Acelera prro");
+
+    public void frenar(int frenar){
+        this.velocidad -= frenar;
+
+        if (velocidad > 0){
+            this.velocidad = 0;
+            System.out.println("Por favor frene");
         }
-        this.velocidad = 0;
     }
     public void parar(){
         this.velocidad = 0;
     }
+
     public void resetear(){
         this.velocidad = 0;
         this.kilometros = 0.0;
     }
+
     public void mostrarDatos(){
-        System.out.println(this.matricula);
-        System.out.println(this.modelo);
-        System.out.println(this.cv);
-        System.out.println(this.velocidad);
-        System.out.println(this.kilometros);
+        System.out.println("Matricula: " + this.matricula);
+        System.out.println("Modelo: " + this.modelo);
+        System.out.println("CV: " + this.cv);
+        System.out.println("Velocidad: " + this.velocidad);
+        System.out.println("Kilómetros: " + this.kilometros);
     }
 
-    //GETTER  Y SETTER  
+    //Getter y setter
 
     public int getCv() {
         return cv;
