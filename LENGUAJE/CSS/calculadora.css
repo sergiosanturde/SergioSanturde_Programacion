@@ -1,0 +1,71 @@
+.grid-container {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:50px 50px 50px 50px 50px 50px  auto; 
+    width: 200px;
+    height: 320px;
+    grid-row-gap: 3px;
+    grid-column-gap: 3px;
+    background-color: lightblue;
+}
+div{
+    border: solid 1px black;
+    text-align: center;
+    border: solid 2px lightskyblue;
+    font-weight: bold;
+    background-color: lightgrey
+}
+#b0 {
+    background-color: azure;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: right;
+    border: solid 3px lightskyblue;
+    padding-right: 6px;
+}
+#bo2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#igual {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+#b1{
+    border-radius: 20%;
+    background-image: linear-gradient(to bottom right, grey, lightgray);
+
+}
+#bo2{
+    border-radius: 20%;
+    background-image: linear-gradient(to bottom right, grey, lightgray);
+
+}
+#igual{
+    border-radius: 20%;
+    background-image: linear-gradient(to bottom right, grey, lightgray);
+
+}
+#b1:hover{
+    background-image: linear-gradient(to bottom right, grey, grey);
+
+}
+#b1:active{
+    background-image: linear-gradient(red, yellow);
+    transform: translateY(1px)
+}
+#bo2:hover{
+    background-image: linear-gradient(to bottom right, grey, grey);
+
+}
+#bo2:active{
+    background-image: linear-gradient(red, yellow);
+    transform: translateY(1px)
+}
+#igual:hover{
+    background-image: linear-gradient(to bottom right, grey, grey);
+}
+#igual:active{
+    background-image: linear-gradient(red, yellow);
+    transform: translateY(1px)
+}
