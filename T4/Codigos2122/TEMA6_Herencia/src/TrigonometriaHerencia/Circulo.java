@@ -1,21 +1,21 @@
 package TrigonometriaHerencia;
 
-public class Circulo {
+public final class Circulo extends Figura{
 
     private double radio;
 
-    public Circulo(){
-
-    }
+    public Circulo(){}
 
     public Circulo(double radio) {
         this.radio = radio;
     }
 
-    public double calcularArea(){
-        double area=Math.PI*Math.pow(2,radio);
-        return area;
+    @Override
+    public double calculaArea() {
+        this.area = Math.PI * Math.pow(radio,2);
+        return this.area;
     }
+
 
     public double calcularDiametro(){
         double diametro = 2 * radio;

@@ -1,21 +1,24 @@
 package TrigonometriaHerencia;
 
-public class Rectangulo {
+public final class Rectangulo extends Figura{
 
-    private double base,altura;
+    private double base,altura,perimetro;
+
+    public Rectangulo(){}
 
     public Rectangulo(double base, double altura) {
         this.base = base;
         this.altura = altura;
     }
 
-    public double calcularArea(){
-        double area = base * altura;
+    @Override
+    public double calculaArea() {
+        area = base * altura;
         return area;
     }
 
     public double calcularPerimetro(){
-        double perimetro = 2 * (base + altura);
+        perimetro = 2 * (base + altura);
         return perimetro;
     }
 
