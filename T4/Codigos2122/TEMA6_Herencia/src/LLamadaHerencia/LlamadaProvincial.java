@@ -11,6 +11,7 @@ public class LlamadaProvincial extends Llamada{
 
     @Override
     public void calcularCoste() {
+        this.coste = (int) (this.duracion * 0.15);
         coste+=duracion;
     }
 

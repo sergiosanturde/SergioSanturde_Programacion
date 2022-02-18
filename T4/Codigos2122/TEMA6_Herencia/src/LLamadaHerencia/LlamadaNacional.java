@@ -17,13 +17,13 @@ public class LlamadaNacional extends Llamada{
     public void calcularCoste() {
         switch (franja){
             case 1:
-                coste=20;
+                this.coste= (int) (this.duracion*0.20);
                 break;
             case 2:
-                coste = 25;
+                this.coste =  (int) (this.duracion*0.25);
                 break;
             case 3:
-                coste=30;
+                this.coste= (int) (this.duracion*0.30);
                 break;
         }
     }

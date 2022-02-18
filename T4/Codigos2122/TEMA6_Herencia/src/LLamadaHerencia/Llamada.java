@@ -2,7 +2,8 @@ package LLamadaHerencia;
 
 public abstract class Llamada {
 
-    int nOrigen,nDestino,coste,duracion;
+    int nOrigen,nDestino,coste;
+    double duracion;
 
     public Llamada (){}
 
@@ -10,6 +11,7 @@ public abstract class Llamada {
         this.nOrigen = nOrigen;
         this.nDestino = nDestino;
         this.duracion = duracion;
+        calcularCoste();
     }
     public abstract void calcularCoste();
 

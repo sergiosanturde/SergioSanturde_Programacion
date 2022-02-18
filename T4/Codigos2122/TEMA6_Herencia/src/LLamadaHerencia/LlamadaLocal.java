@@ -11,7 +11,7 @@ public class LlamadaLocal extends Llamada{
 
     @Override
     public void calcularCoste() {
-        coste = 0;
+        this.coste = 0;
     }
 
 
