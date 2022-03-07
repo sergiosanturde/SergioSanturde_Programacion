@@ -1,6 +1,6 @@
 package Enums;
 
-public class Canterano extends Persona{
+public abstract class Canterano extends Persona implements Seleccionable{
 
     private int posibilidades;
 
@@ -20,6 +20,9 @@ public class Canterano extends Persona{
         this.sueldo = 100;
     }
 
-
+    @Override
+    public void repartirPrima() {
+        this.sueldo = this.sueldo + 200;
+    }
 }
 

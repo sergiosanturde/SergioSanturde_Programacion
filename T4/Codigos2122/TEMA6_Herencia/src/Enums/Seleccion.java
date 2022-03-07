@@ -2,7 +2,7 @@ package Enums;
 
 import java.util.ArrayList;
 
-public class Seleccion {
+public class Seleccion{
 
     private ArrayList<Persona> listaPersonas;
 
@@ -19,7 +19,13 @@ public class Seleccion {
             if (!(item instanceof Entrenador)){
                 ((Seleccionable)item).atacar();
             }
-
+        }
+    }
+    public void repartirPrima(){
+        for ( Persona item : listaPersonas ) {
+            if (!(item instanceof Entrenador)){
+                ((Seleccionable)item).repartirPrima();
+            }
         }
     }
 }
