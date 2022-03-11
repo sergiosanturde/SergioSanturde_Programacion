@@ -1,6 +1,8 @@
 package EjerClase;
 
 public interface Comision {
-    void votar(int nVoto);
+
+    double votar(int nVoto);
     void repartirBeneficios();
+
 }

@@ -6,7 +6,7 @@ public final class Jefe extends Trabajador implements Comision{
 
     public Jefe() {}
 
-    public Jefe(String nombre, String apellido, String dni, int sueldo, String departamento, int nTrabajadores) {
+    public Jefe(String nombre, String apellido, String dni, int sueldo, Departamento departamento, int nTrabajadores) {
         super(nombre, apellido, dni, sueldo, departamento);
         this.nTrabajadores = nTrabajadores;
     }
@@ -17,13 +17,20 @@ public final class Jefe extends Trabajador implements Comision{
     }
 
     @Override
-    public void votar(int nVoto) {
-        nVoto = (int)(nVoto * 0.3);
+    public void mostrarDatos() {
+        super.mostrarDatos();
+        System.out.println("Nú  mero Trabajadores: " + nTrabajadores);
+    }
+
+    @Override
+    public double votar(int nVoto) {
+        nVoto = (int) Math.random();
+        return nVoto;
     }
 
     @Override
     public void repartirBeneficios() {
-        
+
     }
 
     //g y s
@@ -34,4 +41,5 @@ public final class Jefe extends Trabajador implements Comision{
     public void setnTrabajadores(int nTrabajadores) {
         this.nTrabajadores = nTrabajadores;
     }
+
 }
