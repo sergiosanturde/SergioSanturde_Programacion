@@ -15,12 +15,12 @@ public class Biblioteca {
     }
 
     public void registrarPersona(Persona persona){
-        listaPersonas.add(persona);
+
     }
     public void registrarElemeto(Elemento elemento){
         listaElementos.add(elemento);
     }
     public void realizarPrestamo(Socio socio,Prestar elementoPrestado){
-
+        if ((Elemento)elementoPrestado.
     }
 }
