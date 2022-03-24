@@ -14,7 +14,7 @@ public class Partido {
     }
     //
     public void agregarGolesLocal(){
-        golesLocal += (int)((Math.random())*3);
+        golesLocal += (int)(Math.random()*3);
     }
     public void agregarGolesVisitante(){
         golesVisitante += (int)((Math.random())*3);
