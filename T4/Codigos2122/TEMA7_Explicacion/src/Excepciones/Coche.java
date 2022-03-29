@@ -7,9 +7,11 @@ import java.lang.reflect.Field;
 import java.text.ParseException;
 
 public class Coche {
+    private Object FileWriter;
+
     public void metodo1() throws IOException {
         File file = new File("");
-        FileWriter fw = new FileWriter(file);
+        FileWriter = new FileWriter("");
     }
 
     public void metodo2(boolean acierto){
