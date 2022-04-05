@@ -1,34 +1,45 @@
 body{
     margin: 0;
+    background-color: #33312F;
 }
 #fondo1{
     background-image: url('recursosnetflix/fondo1.jpg');
-    box-shadow:inset 0 0 99999px rgba(0,0,0,10);
+    box-shadow:inset 0 0 99999px rgba(0,0,0,100);
     width: 100%;
     height: 850px;
 }
 #logo{
     position:absolute;
-    height:50px;
-    width:160px;
+    height:40px;
+    width:140px;
     top: 40px;
     left : 40px;
 }
 #botonIniciar{
     background-color: red;
-    position: absolute;
-    color: white;
+    position:absolute;
     top: 40px;
-    right : 40px;
+    right: 40px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px
 }
 #botonIdioma{
     position:absolute;
-    height:40px;
+    height:30px;
     width:120px;
     top: 40px;
-    right : 80px;
+    right : 180px;
     background-color: transparent;
-    color: white
+    color: white;
+    border-radius: 5px;
 }
 #titulo1{
     font-size: 50px;
@@ -44,16 +55,66 @@ body{
     color: white;    
     position: absolute;
     text-align: center;
+    display: inline;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -20%);
 }
 #texto2{
-    font-size: 20px;
+    font-size: 25px;
     color: white;    
     text-align: center;    
     position: absolute;
     top: 80%;
     left: 50%;
     transform: translate(-50%, -20%);
+}
+#formfondo1{
+    position: absolute;
+    bottom: -10%;
+    float: center;
+    margin-left: 20%;
+    height: 90px;
+    width: 70%;
+}
+#correoformfondo1{
+    height: 60px;
+    width: 460px
+}
+#empezarformfondo1{
+    height: 65px;
+    width: 180px;
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: -3px;
+
+}
+#fondo2{
+    background-color: black;
+    width: 100%;
+    height: 850px;
+}
+#cuadrofondo2{
+    position:absolute;
+    height:120px;
+    width:360px;
+    top: 190%;
+    color: white;
+    border-radius: 5px;
+    background-color: red;
+}
+#img1fondo2{
+    width: 400px;
+    height: 410px;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+#textofondo2{
+    color: white;
+    float: right;
 }
