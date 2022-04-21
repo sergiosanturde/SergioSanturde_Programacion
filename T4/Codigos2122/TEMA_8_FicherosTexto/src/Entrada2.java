@@ -8,14 +8,16 @@ public class Entrada2 {
             File directory = null;
             File directory2 = null;
 
-            file =new File("C:/Users/Usuario DAM1/Desktop/ficheros/ficheroEscritura.txt");
+            //file =new File("C:/Users/Usuario DAM1/Desktop/ficheros/ficheroEscritura.txt");
+            File file3 =new File("C:/Users/Usuario DAM1/Desktop/ficheros/ficheroEscrituraCompleto.txt");
 
 
             FicherosController2 ficherosController = new FicherosController2();
             //ficherosController.lecturaFichero(file);
             //ficherosController.lecturaBuffer(file);
             //ficherosController.escrituraFichero(file);
-            ficherosController.cifrado(file);
+            //ficherosController.cifrado(file);
+            ficherosController.escribirFicheroCompleto(file3);
     }
 }
 
