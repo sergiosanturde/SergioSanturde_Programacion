@@ -14,13 +14,7 @@ public class Main {
         ControllerBD controllerBD = new ControllerBD();
 
 
-        do {
-            System.out.println("¿Que quieres hacer?");
-            System.out.println("1.- Modificar usuario");
-            System.out.println("2.- Eliminar usuario");
-
-
-        }while (eleccion!=0);
+        System.out.println("Introduce ");
 
 
 

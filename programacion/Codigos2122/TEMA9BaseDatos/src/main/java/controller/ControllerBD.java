@@ -4,14 +4,23 @@ import database.SchemeDB;
 import model.Alumno;
 
 import java.sql.*;
+import java.util.ArrayList;
 
 public class ControllerBD {
+
+    private ArrayList<Alumno> listaAlumnos;
 
     private Connection conn;
 
     private PreparedStatement preparedStatement;
 
     private Statement statement;
+
+    private ResultSet resultSet;
+
+    public ControllerBD() {
+        this.listaAlumnos = new ArrayList<>();
+    }
 
     private void getConnection() {
         String host = SchemeDB.URL_SERVER;
@@ -121,21 +130,76 @@ public class ControllerBD {
 
     }
 
-    public void modificarUser(int edad,String nombre) {
+    public void modificarUser(String nombre,int edad) {
 
-        String query = String.format("UPDATE %s SET %s = ? where %s = ?", SchemeDB.TAB_ALU, SchemeDB.COL_EDAD, SchemeDB.COL_NOMBRE);
+        String query = String.format("UPDATE %s" + "SET %s = ?" +  "WHERE ? = ?", SchemeDB.TAB_ALU, SchemeDB.COL_EDAD, SchemeDB.COL_NOMBRE);
 
         try {
             getConnection();
             preparedStatement = conn.prepareStatement(query);
             preparedStatement.setInt(1, edad);
             preparedStatement.setString(2, nombre);
-            preparedStatement.executeUpdate();
+            int rows = preparedStatement.executeUpdate();
+            System.out.println("Los borrar afectados son "+rows);
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
             try {
                 preparedStatement.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            closeConnection();
+        }
+    }
+
+    public void borrarUser(int edad){
+
+        String query = String.format("DELETE FROM %s WHERE %s < ?", SchemeDB.TAB_ALU, SchemeDB.COL_EDAD, SchemeDB.COL_NOMBRE);
+
+        try {
+            getConnection();
+            preparedStatement = conn.prepareStatement(query);
+            preparedStatement.setInt(1, edad);
+            int rows = preparedStatement.executeUpdate();
+            System.out.println("Los borrar afectados son "+rows);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                preparedStatement.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            closeConnection();
+        }
+    }
+
+    public void getResultados(){
+        getConnection();
+        try {
+            statement = conn.createStatement();
+            String query = "SELECT * FROM "+ SchemeDB.TAB_ALU;
+            resultSet = statement.executeQuery(query);
+            resultSet.next();
+            while(resultSet.next()) {
+                String nombre = resultSet.getString(SchemeDB.COL_NOMBRE);
+                String apellido = resultSet.getString(SchemeDB.COL_APELLIDO);
+                int edad = resultSet.getInt(SchemeDB.COL_EDAD);
+                int id = resultSet.getInt(SchemeDB.COL_ID);
+                Alumno alumno = new Alumno(nombre,apellido,edad);
+                listaAlumnos.add(alumno);
+
+                System.out.println(nombre);
+                System.out.println(apellido);
+                System.out.println(edad);
+                System.out.println(id);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                statement.close();
             } catch (SQLException e) {
                 e.printStackTrace();
             }
