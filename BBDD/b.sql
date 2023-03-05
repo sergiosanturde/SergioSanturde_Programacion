@@ -13,7 +13,8 @@ domicilio VARCHAR(100),
 fecha_apertura DATE NOT NULL,
 horario ENUM('HOR1','HOR2','HOR3') NOT NULL,
 cod_loc INT NOT NULL,
-FOREIGN KEY (cod_loc) REFERENCES localidad (cod_localidad));
+FOREIGN KEY (cod_loc) REFERENCES localidad (cod_localidad)
+);
 
 
 CREATE TABLE IF NOT EXISTS titular (
@@ -45,4 +46,5 @@ CREATE TABLE IF NOT EXISTS pub_empleado (
 	dni_empleado VARCHAR(20),
 	FOREIGN KEY (dni_empleado) REFERENCES empleado(dni_empleado),
     funcion ENUM('CAMAMERO','SEGURIDAD','LIMPIEZA'),
-PRIMARY KEY (cod_pub, dni_empleado, funcion));
+PRIMARY KEY (cod_pub, dni_empleado, funcion)
+);

@@ -1,0 +1,45 @@
+#total{
+    width: 210px;
+    height: 270px;
+    border-radius: 5%;
+    background-color: grey;
+    padding: 10px;
+}
+#s1{
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+    border-radius: 5%;
+    
+
+}
+#boton{
+    width: 200px;
+    height: 30px;
+    background-color: darkcyan;
+    border-radius: 5%;
+    margin: 3px;
+    color: white;
+
+}
+#user1{
+    color: white;
+}
+#pass1{
+    color: white;
+
+}
+#user2{
+    width: 200px;
+    height: 25px;
+}
+#pass2{
+    width: 200px;
+    height: 25px;
+}
+#f1{
+    color: white;
+}
+#f2{
+    color: white;
+}

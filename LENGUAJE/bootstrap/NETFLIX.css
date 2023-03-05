@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    background-color: #33312F !important;
+}
+#fondo1{
+    background-image: url('recursosnetflix/fondo1.jpg');
+    box-shadow:inset 0 0 99999px rgba(0,0,0,100);
+    width: 100%;
+    height: 850px;
+}
+#logo{
+    position:absolute;
+    height:40px;
+    width:140px;
+    top: 40px;
+    left : 40px;
+}
+#botonIniciar{
+    background-color: red;
+    position:absolute;
+    top: 40px;
+    right: 40px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px
+}
+#botonIdioma{
+    position:absolute;
+    height:30px;
+    width:120px;
+    top: 40px;
+    right : 180px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+}
+#textofondo1{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 900px;
+    height: 500px;
+}
+#titulo1{
+    font-size: 50px;
+    color: white;
+    text-align: center;    
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+#texto1{
+    font-size: 30px;
+    color: white;    
+    position: absolute;
+    text-align: center;
+    display: inline;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#texto2{
+    font-size: 20px;
+    color: white;    
+    text-align: center;    
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#formfondo1{
+    position: absolute;
+    bottom:0%;
+    float: center;
+    margin-left: 20%;
+    height: 90px;
+    width: 70%;
+}
+#correoformfondo1{
+    height: 60px;
+    width: 460px
+}
+#empezarformfondo1{
+    height: 65px;
+    width: 180px;
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: -3px;
+
+}
+#fondo2{
+    background-color: black;
+    width: 100%;
+    height: 850px;
+}
+
+#img1fondo2{
+    width: 400px;
+    height: 350px;
+    margin-top: 40%;
+    margin-left: 5%;
+}
+#cajaimagen2{
+    width: 600px;
+    height: 800px;
+}
+#cajatexto2{
+    position: absolute;
+    right: 5%;
+    top: 175%;
+    width: 450px;
+    height: 400px;
+}
+#texto1fondo2{
+    color: white;
+    float: right;
+    font-size: 40px;
+}
+#texto2fondo2{
+    color: white;
+    float: right;
+    font-size: 25px;
+}
+#fondo3{
+    background-color: black;
+    width: 100%;
+    height: 850px;
+}
+
+#img1fondo3{
+    width: 400px;
+    height: 350px;
+    margin-top: 50%;
+    margin-left: 5%;
+}
+#cajaimagen3{
+    width: 600px;
+    height: 800px;
+}
+#cajatexto3{
+    position: absolute;
+    right: 5%;
+    top: 330%;
+    width: 450px;
+    height: 400px;
+
+}
+#texto1fondo3{
+    color: white;
+    font-size: 40px;
+}
+#texto2fondo3{
+    color: white;
+    font-size: 25px;
+}
+#fondo3{
+    background-color: black;
+    width: 100%;
+    height: 850px;
+}
+#preguntas{
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+#dropdown{
+    padding-top: 5%;
+
+}

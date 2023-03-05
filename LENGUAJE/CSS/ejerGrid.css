@@ -1,0 +1,55 @@
+.grid-container {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:25px 25px 25px 25px 25px 25px 25px 25px auto; 
+    border: solid 1px black;  
+    }
+#recreo{
+    grid-column-start: 2;
+    grid-column-end: 7;
+    text-align: center;
+    background-color: lightgray;
+    text-decoration-color: orange;
+}
+div{
+    border: solid 1px black;
+}
+#diahora{
+    background-color: lightgray;
+}
+#mark{
+    background-color: orange;
+}
+#lengua{
+    background-color: yellow;
+}
+#sociales{
+    background-color: plum;
+}
+#EF{
+    background-color: lightblue;
+}
+#natu{
+    background-color: pink;
+}
+#ing{
+    background-color: lightsalmon
+}
+#mates{
+    background-color: crimson
+}
+#alt{
+    background-color: greenyellow
+}
+#plast{
+    background-color: pink
+}
+#cd{
+    background-color: burlywood
+}
+#biblio{
+    background-color: red
+}
+#mus{
+    background-color: blue
+}
