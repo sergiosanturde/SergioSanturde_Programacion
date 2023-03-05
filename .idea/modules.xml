@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosJava/2022-2023.iml" filepath="$PROJECT_DIR$/EjerciciosJava/2022-2023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SergioSanturde_Programacion.iml" filepath="$PROJECT_DIR$/.idea/SergioSanturde_Programacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T4/Codigos2122/T4_Arrays/T4_Arrays.iml" filepath="$PROJECT_DIR$/T4/Codigos2122/T4_Arrays/T4_Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T4/Codigos2122/T4_ejercicios/T4_ejercicios.iml" filepath="$PROJECT_DIR$/T4/Codigos2122/T4_ejercicios/T4_ejercicios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T4/Codigos2122/T5_OrientadaObjetos/T5_OrientadaObjetos.iml" filepath="$PROJECT_DIR$/T4/Codigos2122/T5_OrientadaObjetos/T5_OrientadaObjetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T4/Codigos2122/exameneva1/exameneva1.iml" filepath="$PROJECT_DIR$/T4/Codigos2122/exameneva1/exameneva1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T4/Codigos2122/sergiosanturdeExam1eva/sergiosanturdeExam1eva.iml" filepath="$PROJECT_DIR$/T4/Codigos2122/sergiosanturdeExam1eva/sergiosanturdeExam1eva.iml" />
+    </modules>
+  </component>
+</project>
